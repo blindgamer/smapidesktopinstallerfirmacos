@@ -1,0 +1,153 @@
+==============================================================
+  SMAPI DESKTOP LAUNCHER
+  A one-click Stardew Valley + SMAPI shortcut for your Desktop
+==============================================================
+
+
+--------------------------------------------------------------
+  READ THIS FIRST IF YOU ARE ON WINDOWS
+--------------------------------------------------------------
+
+THIS IS A MAC INSTALLER. It will not work on Windows. The
+install.command file does nothing useful on a Windows PC, so
+please don't try to run it.
+
+You don't need an installer on Windows anyway - Windows already
+has this built in. Here's how to put SMAPI on your desktop:
+
+  1. Open your Stardew Valley folder.
+     In Steam: right-click Stardew Valley in your library,
+     then Manage > Browse local files.
+
+  2. Find the file called  StardewModdingAPI.exe
+     (If your PC hides file extensions it will just say
+     StardewModdingAPI, with a little SMAPI icon.)
+
+  3. RIGHT-CLICK  StardewModdingAPI.exe
+
+  4. Hover over  "Send to"
+
+  5. Click  "Desktop (create shortcut)"
+
+That's it. A shortcut appears on your desktop. Double-click it
+to play with mods.
+
+  Note for Windows 11: if you don't see "Send to" straight away,
+  click "Show more options" first, then Send to > Desktop
+  (create shortcut).
+
+
+--------------------------------------------------------------
+  WHAT THIS DOES (Mac)
+--------------------------------------------------------------
+
+It puts an app called SMAPI.app on your Desktop. Double-click
+it and Stardew Valley starts up with SMAPI and all your mods.
+
+It also opens a Terminal window next to the game. That window
+is useful, not scary - it shows which mods loaded, any warnings
+about broken or outdated mods, and update notices. If the game
+ever crashes, that window tells you why.
+
+It launches the game directly and does NOT go through Steam.
+If Steam isn't running you won't get Steam achievements, the
+Steam overlay, or playtime tracking for that session. If Steam
+happens to be open, all of that works as normal.
+
+WHAT IT DOES NOT DO:
+It does not install, change, update or remove SMAPI, your mods,
+your saves, or the game itself. All it does is add (or remove)
+one shortcut app on your Desktop. Nothing else on your computer
+is touched.
+
+
+--------------------------------------------------------------
+  BEFORE YOU START
+--------------------------------------------------------------
+
+You must already have SMAPI installed.
+
+This is only a shortcut - it does not include SMAPI and cannot
+install it for you. If you don't have SMAPI yet, get it here:
+
+      https://smapi.io
+
+Download it, run the SMAPI installer, and let it finish. Then
+come back and run this installer.
+
+The installer checks for SMAPI and will tell you if it's
+missing, so if you're not sure, just run it and see.
+
+
+--------------------------------------------------------------
+  HOW TO INSTALL (Mac)
+--------------------------------------------------------------
+
+  1. Unzip this folder if you haven't already (double-click
+     the .zip file).
+
+  2. RIGHT-CLICK  install.command  and choose  "Open".
+
+     Please right-click and choose Open the FIRST time, rather
+     than double-clicking. macOS blocks double-clicked files
+     that came from the internet.
+
+  3. macOS may warn that it can't check the file for malicious
+     software. Click  "Open"  to continue.
+
+  4. A Terminal window opens and explains what the installer
+     does. Read it, then type  1  and press return to install.
+
+  5. When it says "Done", press return to close the window.
+
+SMAPI.app is now on your Desktop. Double-click it to play.
+
+  The very first time you launch SMAPI.app, macOS may show the
+  same "unidentified developer" warning. Right-click SMAPI.app,
+  choose Open, then click Open again. You only do this once.
+
+
+--------------------------------------------------------------
+  HOW TO UNINSTALL (Mac)
+--------------------------------------------------------------
+
+Run  install.command  again, then type  2  and press return.
+
+That deletes SMAPI.app from your Desktop and nothing else.
+Your game, SMAPI, mods and saves are all left alone.
+
+You can also just drag SMAPI.app to the Trash - it's only a
+shortcut, so nothing breaks.
+
+For safety, the uninstaller only removes a SMAPI.app that this
+installer created. If you made your own app with that name, it
+will leave it alone and tell you so.
+
+
+--------------------------------------------------------------
+  IF SOMETHING GOES WRONG
+--------------------------------------------------------------
+
+"install.command can't be opened because it is from an
+ unidentified developer"
+     Right-click it and choose Open instead of double-clicking.
+
+"The installer says it can't find Stardew Valley"
+     It will ask you to point at the folder. In Steam,
+     right-click Stardew Valley > Manage > Browse local files,
+     then drag that folder into the Terminal window and press
+     return.
+
+"The installer says SMAPI is not installed"
+     Install SMAPI from https://smapi.io first, then run this
+     installer again.
+
+"Nothing happens when I double-click install.command"
+     Open Terminal, type  chmod +x  followed by a space, drag
+     install.command into the window, press return. Then try
+     again.
+
+"I want Steam achievements"
+     Start Steam first and leave it running, then launch
+     SMAPI.app. Or launch the game from Steam as usual -
+     SMAPI loads that way too.
